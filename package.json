@@ -1,0 +1,27 @@
+{
+  "name": "102-esl-test",
+  "version": "1.0.0",
+  "description": "esl + prettier",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix --ext .js"
+  },
+  "keywords": [
+    "test eslint prettier"
+  ],
+  "author": "Michael Veselov",
+  "license": " ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.8"
+  }
+}
